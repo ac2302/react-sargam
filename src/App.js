@@ -1,7 +1,12 @@
 import "./App.css";
+import SingleFrequencyPlayer from "./components/SingleFrequencyPlayer";
 
 function App() {
-	return <div>hello</div>;
+	return (
+		<>
+			<SingleFrequencyPlayer />
+		</>
+	);
 }
 
 export default App;
